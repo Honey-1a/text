@@ -1,0 +1,115 @@
+
+// 1.约定一下将当前UI图分为多少份？
+@size: 20;
+
+// 2. 计算当前UI图中每一份的大小
+@dx: 640px / @size;
+
+
+
+html {
+    background-color: #f7f4f1;
+}
+
+.mbody{
+    width: 100%;
+    .header{
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+    .font {
+        width: 100%;
+        height: 78rem/@dx;
+        line-height: 78rem/@dx;
+        // padding: 27rem/@dx 23rem/@dx;
+        box-sizing: border-box;
+        font-size: 36rem/@dx;
+        span{
+            font-size: 30rem/@dx;
+        }
+        p {
+            font-size: 30rem/@dx;
+        }
+        
+    } 
+    .banner {
+        width: 100%;
+        height: 415rem/@dx;
+        // height: 325px;
+        padding: 27rem/@dx 23rem/@dx;
+        box-sizing: border-box;
+        position: relative;
+
+        i{
+            display: block;
+            width: 100%;
+            height: 10rem/@dx;
+            background: url('../img/icon.png');
+            position: absolute;
+            bottom: 130rem/@dx;
+        }
+        .banner_t {
+            width: 100%; 
+            height: 333rem/@dx;
+            background-color: #55bc75;
+            border-radius: 20rem/@dx;
+            // text-align: center;
+            display: flex;
+            flex-direction: column;
+            // padding:0 20rem/@dx;
+            box-sizing: border-box;
+            border: 1rem/@dx solid #ebe9e6;
+            font {
+                font-size: 44rem/@dx;
+                flex: 1;
+            }
+            span {
+                font-size: 23rem/@dx;
+                color:#a7e6bb;
+                flex: 2;
+            }
+            .banner_tm {
+                width: 100%;
+                flex: 1;
+                font-size: 50rem/@dx;
+               
+                p {
+                    // display: block;
+                    // width: 95rem/@dx;
+                    // height: 34rem/@dx;
+                    font-size: 20rem/@dx;
+                    background-color: rgba(225,225,225,.5);
+                }
+                s {
+                    display: block;
+                    width:73rem/@dx;
+                    height:73rem/@dx;
+                    background: url('../img/sale.png')no-repeat;
+                    background-size: 73rem/@dx 73rem/@dx;
+                    position: absolute;
+                    top:30rem/@dx;
+                    right: 25rem/@dx;
+                }
+                
+            }
+            
+            ul {
+                width: 100%;
+                height: 80rem/@dx;
+                padding-top:25rem/@dx;
+                box-sizing: border-box;
+                display: flex;
+                text-align: center;
+                
+                li {
+                    flex: 1;
+                    color:#fff;
+                    font-size: 30rem/@dx;
+                }
+            }
+        }
+        
+    }
+}

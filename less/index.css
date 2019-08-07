@@ -1,0 +1,161 @@
+html,
+body {
+  width: 100%;
+}
+html {
+  background-color: #f7f4f1;
+}
+.mbody {
+  width: 100%;
+}
+.mbody .header {
+  width: 100%;
+}
+.mbody .header img {
+  width: 100%;
+}
+.mbody .one {
+  width: 100%;
+  height: 3.3125rem;
+  font-size: 0.9375rem;
+  line-height: 3.3125rem;
+  border-bottom: 0.0625rem #dedede solid;
+}
+.mbody .two {
+  width: 100%;
+  height: 3.3125rem;
+  font-size: 0.9375rem;
+  line-height: 3.3125rem;
+  border-bottom: 0.0625rem #dedede solid;
+  display: flex;
+}
+.mbody .two .tl {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0 0.625rem;
+  box-sizing: border-box;
+}
+.mbody .two .tl span {
+  flex: 1;
+  display: block;
+  height: 40%;
+  width: 100%;
+  line-height: 190%;
+  word-break: keep-all;
+  font-size: 0.9375rem;
+}
+.mbody .two .tl span:nth-child(2) {
+  font-size: 0.46875rem;
+  color: #b5b5b5;
+}
+.mbody .two .tl p {
+  font-size: 0.9375rem;
+  position: absolute;
+  top: 0.3125rem;
+  right: 0;
+  color: #b5b5b5;
+}
+.mbody .two .tr {
+  flex: 1;
+  padding: 0 0.625rem;
+  box-sizing: border-box;
+}
+.mbody .two .tr span {
+  font-size: 0.9375rem;
+  float: left;
+}
+.mbody .two .tr p {
+  font-size: 0.9375rem;
+  float: right;
+  color: #b5b5b5;
+}
+.mbody .three {
+  width: 100%;
+  height: 3.3125rem;
+  font-size: 0.9375rem;
+  line-height: 3.3125rem;
+  border-bottom: 0.0625rem #dedede solid;
+}
+.mbody .three span {
+  font-size: 0.9375rem;
+  float: left;
+}
+.mbody .three p {
+  font-size: 0.9375rem;
+  float: right;
+  color: #b5b5b5;
+}
+.mbody .four {
+  width: 100%;
+  height: 3.3125rem;
+  font-size: 0.9375rem;
+  line-height: 3.3125rem;
+  border-bottom: 0.0625rem #dedede solid;
+  display: flex;
+}
+.mbody .four .fl {
+  flex: 1;
+  display: flex;
+  position: relative;
+}
+.mbody .four .fl span {
+  flex: 1;
+  height: 40%;
+  font-size: 0.9375rem;
+}
+.mbody .four .fl p {
+  font-size: 0.46875rem;
+  flex: 1;
+  height: 40%;
+  position: absolute;
+  bottom: 0.78125rem;
+  left: 0;
+}
+.mbody .four p {
+  font-size: 0.9375rem;
+  float: right;
+  color: #b5b5b5;
+}
+.mbody .five {
+  width: 100%;
+  height: 3.3125rem;
+  font-size: 0.9375rem;
+  line-height: 3.3125rem;
+  border-bottom: 0.0625rem #dedede solid;
+}
+.mbody .five span {
+  float: left;
+}
+.mbody .five .el {
+  margin-top: 1.34375rem;
+  margin-right: 1.34375rem;
+  float: right;
+  width: 3.875rem;
+  height: 1.65625rem;
+  line-height: 1.65625rem;
+  border: 0.03125rem #b5b5b5 solid;
+  border-radius: 0.15625rem;
+  padding-top: 0.03125rem;
+  padding-left: 0.625rem;
+  box-sizing: border-box;
+}
+.mbody .five .el p {
+  width: 1.46875rem;
+  height: 1.46875rem;
+  border-radius: 0.0625rem;
+  background-color: #3baca7;
+  display: inline-block;
+}
+.mbody .six {
+  width: 18.4375rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  border-radius: 0.15625rem;
+  background-color: #ff9b25;
+  margin: 1.5625rem auto;
+  text-align: center;
+  color: #fff;
+  font-size: 0.9375rem;
+}

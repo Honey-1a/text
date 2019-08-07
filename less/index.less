@@ -1,0 +1,180 @@
+
+// 1.约定一下将当前UI图分为多少份？
+@size: 20;
+
+// 2. 计算当前UI图中每一份的大小
+@dx: 640px / @size;
+
+
+
+html,body {
+    width: 100%;
+}
+html{
+    background-color: #f7f4f1;
+}
+
+// 主体盒子
+.mbody {
+    width: 100%;
+    .header {
+        width: 100%;
+        
+        img {
+            width: 100%;
+        }
+       
+    }
+
+    .one {
+        width: 100%;
+        height: 106rem/@dx;
+        font-size: 30rem/@dx;
+        line-height: 106rem/@dx;
+        border-bottom: 2rem/@dx #dedede solid;
+    }
+    .two {
+        width: 100%;
+        height: 106rem/@dx;
+        font-size: 30rem/@dx;
+        line-height: 106rem/@dx;
+        border-bottom: 2rem/@dx #dedede solid;
+        display: flex;
+       
+
+        .tl {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            padding:0 20rem/@dx;
+            box-sizing: border-box;
+            span {
+                flex: 1;
+                display: block;
+                height: 40%;
+                width: 100%;
+                line-height: 190%;
+                word-break: keep-all;
+                font-size: 30rem/@dx;
+            }
+            span:nth-child(2){
+                font-size: 15rem/@dx;
+                color: #b5b5b5;
+            }
+            p{
+                font-size: 30rem/@dx;
+                position: absolute;
+                top: 10rem/@dx;
+                right: 0;
+                color: #b5b5b5;
+                
+            }
+        }
+        .tr {
+            flex: 1;
+            padding:0 20rem/@dx;
+            box-sizing: border-box;
+            span{
+                font-size: 30rem/@dx;
+                float: left;
+            }
+            p {
+                font-size: 30rem/@dx;
+                float: right;
+                color: #b5b5b5;
+            }
+        }
+    }
+    .three{
+        width: 100%;
+        height: 106rem/@dx;
+        font-size: 30rem/@dx;
+        line-height: 106rem/@dx;
+        border-bottom: 2rem/@dx #dedede solid;
+        span{
+            font-size: 30rem/@dx;
+            float: left;
+        }
+        p {
+            font-size: 30rem/@dx;
+            float: right;
+            color: #b5b5b5;
+        }
+    }
+    .four {
+        width: 100%;
+        height: 106rem/@dx;
+        font-size: 30rem/@dx;
+        line-height: 106rem/@dx;
+        border-bottom: 2rem/@dx #dedede solid;
+        display: flex;
+        .fl {
+           flex: 1;
+           display: flex;
+           position: relative;
+           span {
+               flex: 1;
+               height: 40%;
+                font-size: 30rem/@dx;
+           }
+           p {
+              font-size: 15rem/@dx;
+              flex: 1;
+              height: 40%;
+              position: absolute;
+              bottom:25rem/@dx;
+              left: 0;
+           }
+        }
+        p{
+            font-size: 30rem/@dx;
+            float: right;
+            color: #b5b5b5;
+        }
+    }
+    .five {
+        width: 100%;
+        height: 106rem/@dx;
+        font-size: 30rem/@dx;
+        line-height: 106rem/@dx;
+        border-bottom: 2rem/@dx #dedede solid;
+        span {
+            float: left;
+
+        }
+        .el {
+            margin-top: 43rem/@dx;
+            margin-right: 43rem/@dx;
+            float: right;
+            width: 124rem/@dx;
+            height: 53rem/@dx;
+            line-height: 53rem/@dx;
+            border:1rem/@dx #b5b5b5 solid;
+            border-radius: 5rem/@dx;
+            padding-top:1rem/@dx;
+            padding-left: 20rem/@dx;
+            box-sizing: border-box;
+            p {
+                width:47rem/@dx;
+                height:47rem/@dx;
+                border-radius: 2rem/@dx;
+                background-color: #3baca7;
+                display: inline-block;
+            }
+        }
+    }
+    .six {
+        width: 590rem/@dx;
+        height: 80rem/@dx;
+        line-height: 80rem/@dx;
+        border-radius: 5rem/@dx;
+        background-color: #ff9b25;
+        margin: 50rem/@dx auto;
+        text-align: center;
+        color: #fff;
+        font-size: 30rem/@dx;
+    }
+}
+
+
